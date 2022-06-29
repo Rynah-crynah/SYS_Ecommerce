@@ -55,9 +55,41 @@
 
 .nav4{
     height:100px;
-    margin-left: -25%;
     background-color: #f3f6fa;
+    padding: 1% 0 -5% 0;
     
+}
+.content5{
+    color: #000;
+    margin-left: 7%;
+    margin-bottom: 2%;
+    
+    /* text-align: center; */
+}
+.img1{
+    width: max-content;
+    margin-left: 5%;
+    
+}
+.img2{
+    width: min-content;
+    height:70px ;
+    margin-left: 30%;
+    margin-top: -8.7%;
+}
+.content6{
+    color: black;
+    margin-left: 29.5%;
+    margin-top: -3.5%;
+}
+.img3{
+    width: min-content;
+    margin-left: 50%;
+    margin-top: -6%;
+}
+.content7{
+    margin-left: 50.5%;
+    margin-top: -2%;
 }
 .container h2{
     background: #0062cc;
