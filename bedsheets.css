@@ -148,6 +148,12 @@ img{
     margin-left: 0;
     width: 70px;
 }
+.product-top{
+    transition: transform 0.5s;
+}
+.product-top:hover {
+    transform: translateY(-5px);
+}
 .product-top:hover .overlay{
     opacity: 0;
     margin-left: 5%;

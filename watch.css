@@ -13,23 +13,12 @@
     display: flex;
          
 }
-.nav1 i{
-    color: white;
-    margin-left: 0.5%;
-    margin-top: 0.7%;
- 
-}
 .nav2{
     height: 38px;
     background-color: #fff;
     width: 33%;
     margin-left: 22%;
         
-}
-.nav2 i{
-    color: #0062cc;
-    margin-left: 92%;
-    margin-top: -6%;
 }
 .content1{
     color: #757575;
@@ -102,6 +91,16 @@
     margin-left: 42.5%;
     margin-top: -2%;
 }
+.img4{
+    width: min-content;
+    height:70px ;
+    margin-left: 60%;
+    margin-top: -7.5%;
+}
+.content8{
+    margin-left: 60%;
+    margin-top: -2.1%;
+}
 .container h2{
     background: #0062cc;
     color: #fff;
@@ -150,11 +149,17 @@ img{
     width: 70px;
 }
 .product-top:hover .overlay{
-    opacity: 0;
+    /* opacity: 0; */
     margin-left: 5%;
     transition: 1s;
 
 
+}
+.product-top{
+    transition: transform 0.5s;
+}
+.product-top:hover {
+    transform: translateY(-5px);
 }
 .overlay .fa{
     cursor: pointer;
